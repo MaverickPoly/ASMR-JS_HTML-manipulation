@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="box">
+    <input  type="text" placeholder="Calculations here..."/>
+    <div class="grid">
+      <button class="btn delete" onclick="clearInput()">C</button>
+      <button class="btn delete" onclick="deleteChar()">D</button>
+      <button class="btn operation" onclick="percent()">%</button>
+      <button class="btn operation" onclick="addChar('+')">+</button>
+
+      <button class="btn number" onclick="addChar('7')">7</button>
+      <button class="btn number" onclick="addChar('8')">8</button>
+      <button class="btn number" onclick="addChar('9')">9</button>
+      <button class="btn operation" onclick="addChar('-')">-</button>
+
+      <button class="btn number" onclick="addChar('4')">4</button>
+      <button class="btn number" onclick="addChar('5')">5</button>
+      <button class="btn number" onclick="addChar('6')">6</button>
+      <button class="btn operation" onclick="addChar('*')">✕</button>
+
+      <button class="btn number" onclick="addChar('1')">1</button>
+      <button class="btn number" onclick="addChar('2')">2</button>
+      <button class="btn number" onclick="addChar('3')">3</button>
+      <button class="btn operation" onclick="addChar('/')">÷</button>
+
+      <button class="btn number" onclick="addChar('0')">0</button>
+      <button class="btn number" onclick="addChar('.')">.</button>
+      <button class="btn operation" onclick="calculate()">=</button>
+
+    </div>
+  </div>
+  <script type="text/javascript" src="script.js"></script>
+</body>
+</html>

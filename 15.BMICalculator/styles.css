@@ -1,0 +1,87 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    list-style: none;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url("sea.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.container {
+    background: rgba(58, 58, 58, 0.62);
+    color: white;
+    padding: 26px;
+    border-radius: 14px;
+    box-shadow: 0 0 80px rgba(0, 255, 255, 0.9);
+    text-align: center;
+}
+
+.container h1 {
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 34px;
+}
+
+.container .box {
+    margin-bottom: 20px;
+    display: flex;
+    gap: 30px
+}
+
+.container .box label {
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.container .box span {
+    font-size: 18px;
+    margin-left: 10px;
+    text-align: right;
+}
+
+.container input {
+    width: 400px;
+    cursor: pointer;
+}
+
+.container .btn {
+    padding: 10px 20px;
+    background: dodgerblue;
+    border-radius: 10px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.container .btn:hover {
+    background: #0067ca;
+}
+
+.container .info {
+    display: flex;
+    flex-direction: column;
+}
+
+.container .result {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+
+.container .msg {
+    font-size: 28px;
+}

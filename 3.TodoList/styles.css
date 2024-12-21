@@ -1,0 +1,94 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: none;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: Arial, sans-serif;
+    outline: none;
+}
+
+body {
+    background: #c1c1c1;
+    display: flex;
+    justify-content: center;
+}
+
+
+.container {
+    background: #dcdcdc;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 4px;
+    text-align: center;
+    width: 550px;
+}
+.container h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.container .input {
+    background: #f3f3f3;
+    padding: 10px;
+    border-radius: 50px;
+    margin-bottom: 30px;
+}
+
+.container .input input {
+    width: 80%;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    margin-right: 20px;
+    font-size: 16px;
+}
+
+.container .input button {
+    padding: 10px 20px;
+    border-radius: 10px;
+    background: dodgerblue;
+    cursor: pointer;
+    color: white;
+    font-size: 15px;
+}
+
+.container .input button:hover {
+    background: #0070dc;
+}
+
+.container ul li div input {
+    cursor: pointer;
+}
+
+.container ul {
+    border-radius: 4px;
+}
+.container ul li {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 12px;
+    background: #f3f3f3;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.container ul li div span {
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+.container ul li button {
+    padding: 5px 12px;
+    border-radius: 10px;
+    cursor: pointer;
+    background: red;
+    color: white;
+    font-size: 13px;
+}
+
+.container ul li button:hover {
+    background: #d50000;
+}
